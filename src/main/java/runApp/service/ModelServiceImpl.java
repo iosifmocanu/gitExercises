@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import runApp.repository.ModelRepository;
 
 @Service
-public class ModelServiceImpl implements ModelService{
+public class ModelServiceImpl implements ModelService {
 
     @Autowired
     private ModelRepository modelRepository;

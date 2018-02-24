@@ -21,7 +21,6 @@ public class ModelDisplay {
             produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Message display() {
-
         return modelService.display();
     }
 
