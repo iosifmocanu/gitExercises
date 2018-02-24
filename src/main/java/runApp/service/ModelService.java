@@ -1,6 +1,6 @@
-package service;
+package runApp.service;
 
-import model.Message;
+import runApp.model.Message;
 import org.springframework.stereotype.Service;
 
 @Service

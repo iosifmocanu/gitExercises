@@ -1,9 +1,9 @@
-package service;
+package runApp.service;
 
-import model.Message;
+import runApp.model.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.ModelRepository;
+import runApp.repository.ModelRepository;
 
 @Service
 public class ModelServiceImpl implements ModelService{

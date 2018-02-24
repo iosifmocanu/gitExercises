@@ -1,4 +1,4 @@
-package model;
+package runApp.model;
 
 import java.io.Serializable;
 
