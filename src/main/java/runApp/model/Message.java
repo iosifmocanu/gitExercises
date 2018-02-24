@@ -1,11 +1,20 @@
 package model;
 
-public class Message {
+import java.io.Serializable;
+
+public class Message implements Serializable{
+
+    private static final long serialVersionUID = -1522784640082826658L;
 
     private String name;
     private String body;
 
     public Message() {
+    }
+
+    public Message(String name, String body) {
+        this.name = name;
+        this.body = body;
     }
 
     public String getName() {
